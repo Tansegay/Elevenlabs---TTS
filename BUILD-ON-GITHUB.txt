@@ -1,0 +1,23 @@
+BUILD EXE KHONG CAN CAI .NET TREN MAY
+=======================================
+
+1. Tao mot repository moi tren GitHub.
+2. Upload TOAN BO noi dung cua thu muc nay vao repository.
+3. Vao tab Actions.
+4. Chon "Build ElevenLabs TTS Windows EXE".
+5. Bam "Run workflow".
+6. Cho GitHub build xong.
+7. Mo run vua thanh cong -> Artifacts.
+8. Tai "ElevenLabs-TTS-Windows-x64".
+9. Giai nen artifact -> nhan:
+   ElevenLabs-TTS.exe
+
+File EXE nay da self-contained:
+- May chay khong can Node.js
+- Khong can npm
+- Khong can .NET Runtime/SDK
+- Windows x64
+
+Luu y:
+- GitHub Actions la noi thuc hien compile Windows.
+- API key khong duoc luu trong source.
